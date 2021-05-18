@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import ActuallyEvent from "./components/ActuallyEvent";
 import Share from "./components/Share";
 import EmailForm from "./components/emailForm";
+import Payment from "./components/payment";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ActuallyEvent />
       <Share />
       <EmailForm />
+      <Payment />
     </>
   );
 }
