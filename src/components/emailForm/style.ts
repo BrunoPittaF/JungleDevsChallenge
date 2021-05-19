@@ -58,6 +58,7 @@ export const Form = styled.form`
   }
 
   button {
+    cursor: pointer;
     background-color: #00c88c;
     border: none;
     border-radius: 4px;

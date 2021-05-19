@@ -4,6 +4,8 @@ import Share from "./components/Share";
 import EmailForm from "./components/emailForm";
 import Payment from "./components/payment";
 import Framework from "./components/framework";
+import ComingSoon from "./components/comingSoon";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <EmailForm />
       <Payment />
       <Framework />
+      <ComingSoon />
+      <Footer />
     </>
   );
 }
