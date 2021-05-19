@@ -3,6 +3,7 @@ import ActuallyEvent from "./components/ActuallyEvent";
 import Share from "./components/Share";
 import EmailForm from "./components/emailForm";
 import Payment from "./components/payment";
+import Framework from "./components/framework";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Share />
       <EmailForm />
       <Payment />
+      <Framework />
     </>
   );
 }

@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Container = styled.section`
   position: relative;
   padding: 64px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .content {
     display: flex;
     align-items: center;
