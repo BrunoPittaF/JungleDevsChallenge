@@ -22,7 +22,11 @@ function Share() {
       <picture>
         <source media="(max-width: 1023px)" srcSet={imageSharedMobile} />
         <source media="(min-width: 1024px)" srcSet={imageShared} />
-        <img src={imageShared} alt="content function about app" />
+        <img
+          src={imageShared}
+          alt="content function about app"
+          title="share your home, nanny and costs"
+        />
       </picture>
     </Container>
   );

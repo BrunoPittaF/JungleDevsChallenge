@@ -9,7 +9,11 @@ function Payment() {
         <picture>
           <source media="(max-width: 1023px)" srcSet={checboxGroupMobile} />
           <source media="(min-width: 1024px)" srcSet={checkboxGroup} />
-          <img src={checkboxGroup} alt="" />
+          <img
+            src={checkboxGroup}
+            alt="Choose payment method"
+            title="Shared payment made simple"
+          />
         </picture>
         <Wrapper>
           <h2>Shared payments made simple</h2>

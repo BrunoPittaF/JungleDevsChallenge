@@ -15,7 +15,11 @@ function Framework() {
 
       <a href="#asd">Read how Hapu’s tribal background defines our app</a>
 
-      <img src={imageTable} alt="testeImageTable" />
+      <img
+        src={imageTable}
+        alt="Nanny Share Table"
+        title="History about Nanny Share"
+      />
 
       <hr />
     </Container>

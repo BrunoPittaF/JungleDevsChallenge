@@ -12,7 +12,7 @@ function Footer() {
       <h2>Become a nanny share host</h2>
       <p>Takes less than 5 minutes to get started</p>
       <Retangle>
-        <img src={Icon} alt="" />
+        <img src={Icon} alt="Calendar Icon" title="Become a nanny share host" />
         <div className="wrapper">
           <p className="titleRetangle">Create Your Nanny Share</p>
           <p>Takes less than 5 minutes</p>
@@ -22,7 +22,7 @@ function Footer() {
       <a href="#asda">Or browse local nanny-shares</a>
 
       <FooterPage>
-        <img src={LogoFooter} alt="" />
+        <img src={LogoFooter} alt="Hapu Logo" title="Hapu" />
 
         <ul className="footer-list">
           <li>
@@ -40,9 +40,9 @@ function Footer() {
         </ul>
 
         <div className="icons">
-          <img src={Facebook} alt="" />
-          <img src={Twitter} alt="" />
-          <img src={Instagram} alt="" />
+          <img src={Facebook} alt="facebook logo" title="facebook logo" />
+          <img src={Twitter} alt="twitter logo" title="twitter logo" />
+          <img src={Instagram} alt="instagram logo" title="instagram logo" />
         </div>
       </FooterPage>
 

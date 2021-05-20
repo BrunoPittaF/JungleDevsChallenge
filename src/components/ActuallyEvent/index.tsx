@@ -4,7 +4,7 @@ import profileImage from "../../images/profileImage.png";
 function ActuallyEvent() {
   return (
     <Container>
-      <img src={profileImage} alt="Imagem de perfil" />
+      <img src={profileImage} alt="Profile" title="Nanny Image Profile" />
       <h4>
         <a href="#contactUser">
           Sarah’s day care available now in North Sydney

@@ -14,7 +14,7 @@ function Header() {
     <ContainerHeader>
       <header>
         <NavigationHeader>
-          <img src={logo} alt="Logo React Challenger 001" />
+          <img src={logo} alt="Smile Icon" title="Logo React Challenger 001" />
 
           <li>
             <h5>
@@ -52,14 +52,22 @@ function Header() {
           </p>
 
           <div className="playDiv">
-            <img src={PlayButton} alt="Botão de play" />
+            <img
+              src={PlayButton}
+              alt="Play button Icon"
+              title="Icon Button for play action"
+            />
             <a href="#a">See hapu in action (27 seconds)</a>
           </div>
         </Wrapper>
 
         <picture>
           <source media="(min-width: 1024px)" srcSet={imageHeader} />
-          <img src={imageHeader} alt="Nanny Share Manage" title="" />
+          <img
+            src={imageHeader}
+            alt="Nanny Share Manage Congratulations"
+            title="Contact Success"
+          />
         </picture>
       </Content>
     </ContainerHeader>

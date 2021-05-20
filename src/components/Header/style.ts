@@ -165,11 +165,13 @@ export const Wrapper = styled.div`
       width: auto;
       margin: 16px 0px;
       font-size: 16px;
+      padding: 0px 16px;
       line-height: 28px;
       text-align: center;
     }
 
     .playDiv {
+      justify-content: center;
       a {
         font-size: 16px;
         line-height: 24px;
