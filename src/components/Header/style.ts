@@ -15,15 +15,24 @@ export const ContainerHeader = styled.section`
     padding-left: 20px;
     padding-right: 32px;
   }
+
+  @media (max-width: 900px) {
+    height: 540px;
+    header {
+      padding: 0px 16px;
+    }
+  }
 `;
 
 export const NavigationHeader = styled.ul`
   display: flex;
   list-style-type: none;
 
-  img {
-    height: 64px;
-    padding-left: 20px;
+  picture {
+    img {
+      height: 64px;
+      padding-left: 20px;
+    }
   }
 
   li {
@@ -40,6 +49,12 @@ export const NavigationHeader = styled.ul`
         font-weight: 500;
         color: white;
       }
+    }
+  }
+
+  @media (max-width: 900px) {
+    li {
+      display: none;
     }
   }
 `;
@@ -70,6 +85,12 @@ export const Register = styled.div`
     text-align: center;
     color: #ffffff;
   }
+
+  @media (max-width: 900px) {
+    h5 {
+      display: none;
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -82,6 +103,15 @@ export const Content = styled.div`
   img {
     &:nth-of-type(2) {
       height: 290px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding: 16px 0px;
+    picture {
+      img {
+        display: none;
+      }
     }
   }
 `;
@@ -118,6 +148,32 @@ export const Wrapper = styled.div`
       font-size: 16px;
       line-height: 24px;
       color: #ffffff;
+    }
+  }
+
+  @media (max-width: 900px) {
+    h1 {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 32px;
+      width: auto;
+      padding: 0px 40px;
+      text-align: center;
+    }
+
+    p {
+      width: auto;
+      margin: 16px 0px;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .playDiv {
+      a {
+        font-size: 16px;
+        line-height: 24px;
+      }
     }
   }
 `;

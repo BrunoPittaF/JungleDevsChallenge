@@ -20,6 +20,22 @@ export const Container = styled.section`
     border: 1px solid #dfdfdf;
     bottom: 0;
   }
+
+  @media (max-width: 900px) {
+    .content {
+      padding: 0;
+      flex-direction: column;
+      padding: 0px 16px;
+
+      img {
+        padding: 0px 8px;
+      }
+    }
+
+    hr {
+      width: 100%;
+    }
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -47,5 +63,26 @@ export const Wrapper = styled.div`
     font-size: 16px;
     line-height: 24px;
     color: #5e20a4;
+  }
+
+  @media (max-width: 900px) {
+    margin: 40px 0px 0px;
+    padding: 0px 24px;
+
+    h2 {
+      text-align: center;
+      padding: 0px 20px;
+      font-size: 22px;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 16px;
+      font-weight: 400;
+    }
+
+    a {
+      text-align: center;
+    }
   }
 `;

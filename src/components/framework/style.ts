@@ -40,4 +40,33 @@ export const Container = styled.section`
     border: 1px solid #dfdfdf;
     bottom: 0;
   }
+
+  @media (max-width: 1024px) {
+    padding: 64px 16px;
+
+    h2 {
+      font-size: 22px;
+      text-align: center;
+      padding: 0px 50px;
+    }
+
+    p {
+      margin: 16px 0px 24px;
+    }
+
+    a {
+      text-align: center;
+      padding: 0px 8px;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    hr {
+      width: 100%;
+    }
+  }
 `;

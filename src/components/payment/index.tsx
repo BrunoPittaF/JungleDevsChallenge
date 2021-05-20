@@ -1,11 +1,16 @@
 import { Container, Wrapper } from "./style";
 import checkboxGroup from "../../images/checkboxGroup.png";
+import checboxGroupMobile from "../../images/mobile/checkboxGroupMobile.jpg";
 
 function Payment() {
   return (
     <Container>
       <div className="content">
-        <img src={checkboxGroup} alt="" />
+        <picture>
+          <source media="(max-width: 1023px)" srcSet={checboxGroupMobile} />
+          <source media="(min-width: 1024px)" srcSet={checkboxGroup} />
+          <img src={checkboxGroup} alt="" />
+        </picture>
         <Wrapper>
           <h2>Shared payments made simple</h2>
           <p>

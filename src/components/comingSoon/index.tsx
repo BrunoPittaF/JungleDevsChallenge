@@ -1,10 +1,16 @@
 import ImageSection5 from "../../images/ImageSection5.png";
+import ImageSection5Mobile from "../../images/mobile/ImageSection5Mobile.jpg";
 import { Container } from "./style";
 
 function ComingSoon() {
   return (
     <Container>
-      <img src={ImageSection5} alt="" />
+      <picture>
+        <source media="(max-width: 1023px)" srcSet={ImageSection5Mobile} />
+        <source media="(min-width: 1024px)" srcSet={ImageSection5} />
+        <img src={ImageSection5} alt="" />
+      </picture>
+
       <h2>Coming soon: Nanny Share Daily Diary!</h2>
 
       <p>

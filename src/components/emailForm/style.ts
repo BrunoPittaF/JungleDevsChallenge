@@ -38,6 +38,13 @@ export const Container = styled.section`
     color: #3d3d3d;
     margin: 16px 0px 74px;
   }
+
+  @media (max-width: 900px) {
+    padding: 64px 16px;
+    hr {
+      width: 100%;
+    }
+  }
 `;
 
 export const Form = styled.form`
@@ -68,5 +75,20 @@ export const Form = styled.form`
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    width: 100%;
+
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 8px;
+    }
   }
 `;

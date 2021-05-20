@@ -42,6 +42,11 @@ export const Container = styled.section`
     mix-blend-mode: normal;
     opacity: 0.6;
   }
+
+  @media (max-width: 900px) {
+    padding-top: 0;
+    padding: 0px 28px 0px;
+  }
 `;
 
 export const Retangle = styled.div`
@@ -97,6 +102,24 @@ export const FooterPage = styled.footer`
       margin: 0px 8px;
       &:first-of-type {
         margin-left: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding: 0px 28px 24px;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 80px;
+      margin: 48px 0px 24px;
+    }
+
+    .icons {
+      margin: 24px 0px 64px;
+      img {
+        width: 45px;
       }
     }
   }

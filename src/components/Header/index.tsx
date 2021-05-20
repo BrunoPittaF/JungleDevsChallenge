@@ -57,7 +57,10 @@ function Header() {
           </div>
         </Wrapper>
 
-        <img src={imageHeader} alt="Nanny Share Manage" />
+        <picture>
+          <source media="(min-width: 1024px)" srcSet={imageHeader} />
+          <img src={imageHeader} alt="Nanny Share Manage" title="" />
+        </picture>
       </Content>
     </ContainerHeader>
   );
