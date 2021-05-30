@@ -1,49 +1,34 @@
-# Jungle Devs - React Challenge #001
+# Projeto Avançado de Sistema - Trabalho final
 
-Jungle Devs technical challenge of a React landing page.
+Descrição breve do projeto aqui ~
 
 ## Installation
 
-To run the project on your machine it is necessary to have the [node](https://nodejs.org/en/) installed
-
-Use the package manager [npm](https://pip.pypa.io/en/stable/) to install the project in your machine.
+Para este inicio não é necessário, mas futuramente terão que ter o typescript instalado na sua máquina. Para isso terão que inserir o comando abaixo.
 
 ```bash
-npm install
+npm install -g typescript
+
 ```
 
 or
 
 ```bash
-yarn install
+yarn add -g typescript
 ```
 
-## Developer mode
+## Compilando o arquivo e gerando o js
 
 To run on
 developer mode:
 
 ```bash
-yarn start
-```
-
-## Create production build
-
-To run the production build:
-
-```bash
-yarn build
-```
-
-and to run the project without installing on the machine
-
-```bash
-yarn serve
+tsc nomedoarquivo.ts
 ```
 
 ## Considerations
 
-I loved the challenge, although simple, there are countless points that can be analyzed and I found it consistent with the proposed level.
+Ainda não sei compilar todo o projeto de uma vez, no futuro eu pesquiso.
 
 ## License
 
